@@ -50,13 +50,13 @@ void loop() {
   {
     Serial.print("Temperature for the device 1 (index 0) is: ");
     Serial.println(tempC);
-    lcd.clear(); // Membersihkan tampilan LCD sebelum menampilkan suhu yang baru
+    lcd.clear(); 
     lcd.setCursor(0, 0);
     lcd.print("Suhu Air: ");
     lcd.print(tempC);
     lcd.print(" C");
     
-    if(tempC > 35 || tempC > 125) { // Mengirimkan pesan jika suhu kurang dari 30 atau lebih dari 125 derajat
+    if(tempC > 35 || tempC > 125) { 
       String message = "PERINGATAN!\n";
       message += "Suhu Air Aquarium Terlalu Tinggi: " + String(tempC, 2) + " °C";
       bot.sendMessage(CHAT_ID, message, "");
