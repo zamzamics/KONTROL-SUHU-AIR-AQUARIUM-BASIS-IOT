@@ -7,12 +7,12 @@
 #include <LiquidCrystal_I2C.h> // Library untuk LCD I2C
 
 
-const char* ssid = "hehe";
-const char* password = "terserah hehe";
+const char* ssid = "xxxxxxxxxxxxxx";
+const char* password = "xxxxxxxxxxxxxx";
 #define ONE_WIRE_BUS 2
 
-#define BOTtoken "6618209994:AAHLfbeoVnwtfpg3y6WUShjk3IRly40kOWM"
-#define CHAT_ID "5174254230"
+#define BOTtoken "xxxxxxxxxx:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+#define CHAT_ID "xxxxxxxxx"
 
 
 OneWire oneWire(ONE_WIRE_BUS);
